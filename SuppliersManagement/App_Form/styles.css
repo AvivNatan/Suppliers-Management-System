@@ -1,0 +1,95 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container Styles */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+/* Title Styles */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Label Styles */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+/* Input Styles */
+input[type="text"], select, .aspNetDisabledTextBox {
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.calendar {
+    width: fit-content; 
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+
+/* Dropdown Styles */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Button Styles */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+        background-color: #0056b3;
+    }
+
+/* Error Message Styles */
+.validator-error{
+color: red;
+font-size: 12px;
+margin-top: 2px;
+margin-bottom: 10px;
+display: block;
+}
+
+/* Input Focus Effect */
+input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
